@@ -15,7 +15,6 @@
         if (form.checkValidity()) {
           const products = JSON.parse(localStorage.getItem("products")) || [];
           let requests = JSON.parse(localStorage.getItem("requests")) || [];
-          console.log(requests);
 
           requests.push({
             firstName: document.getElementById('firstName').value,
