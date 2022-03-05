@@ -33,9 +33,9 @@ const tableTemplate = (id, name, email, tel, products, total) => {
 }
 
 (() => {
-  const requests = JSON.parse(localStorage.getItem('requests'));
+  const requests = JSON.parse(localStorage.getItem('requests')) || [];
   const table = document.getElementById('table');
-  if (requests.length > 0) {
+  if (Array.isArray(requests) && requests.length > 0) {
     const content = requests.map((req, i) => (tableTemplate(i, req.firstName + ' ' + req.lastName, req.email, req.tel, req.products.data, req.products.total))).join('\n');
     table.innerHTML += content;
   }
