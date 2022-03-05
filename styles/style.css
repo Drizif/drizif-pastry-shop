@@ -1,0 +1,36 @@
+.container {
+  background-color: #ffc5ed;
+  border-radius: 1rem;
+
+}
+
+.navbar {
+  background-color: #ffc5ed;
+
+}
+
+body {
+  background-color: #89b6ff;
+}
+
+.card {
+  background-size: cover;
+  border-radius: 1rem;
+
+}
+
+.pedidos {
+  background-color: #ffc5ed;
+}
+
+.badge {
+  background-color: #89b6ff;
+}
+
+.card{
+  background-color: #89b6ff;
+}
+
+.card-img-top{
+  border-radius: 1rem;
+}
