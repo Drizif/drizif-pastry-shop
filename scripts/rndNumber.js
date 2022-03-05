@@ -92,7 +92,7 @@ function setTotal() {
 
   if (total > 0) {
     const modal = document.getElementById('price');
-    modal.textContent = `$${total.toFixed(2)}`;
+    modal.textContent = `$${total.toFixed(2)} MXN`;
   }
 }
 

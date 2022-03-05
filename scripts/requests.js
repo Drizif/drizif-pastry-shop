@@ -21,8 +21,8 @@ const tableTemplate = (id, name, email, tel, products, total) => {
               <div class="col">
                 <div class="fw-bold">Total:</div>
               </div>
-              <div class="col">
-              ${total.toFixed('2')}
+              <div class="col total">
+              $${total.toFixed('2')} MXN
               </div>
             </div>            
           </div>
